@@ -157,8 +157,8 @@
   "files": [
     {
       "path": "PZ_OnlineAssetsTest.blend",
-      "size_in_bytes": 456765,
-      "hash": "SHA256:9c30fa5cc755a408a8247b43c4c330103c73697aad5160a39778b2b9eb353bd3",
+      "size_in_bytes": 690703,
+      "hash": "SHA256:35f1665a1e3507149b5dd98c74e0d4dc3f8ec32af8bad9a8ee565f174859989b",
       "blender_version": "5.2.44"
     }
   ]
