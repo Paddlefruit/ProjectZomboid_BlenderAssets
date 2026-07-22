@@ -1,0 +1,165 @@
+{
+  "asset_count": 5,
+  "file_count": 1,
+  "assets": [
+    {
+      "name": "OBJ-Cow",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-cow.webp",
+        "hash": "SHA256:b61fee1f56a2dce1132b0352354a20553d5ce16aeaf1c957acc7b2ddaf667c26"
+      },
+      "meta": {
+        "catalog_id": "6c6cc28c-7664-4556-a6be-89adbb582ba5",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.4211980104446411,
+              1.447416067123413,
+              0.9463199973106384
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-FemaleBody",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-femalebody.webp",
+        "hash": "SHA256:c75cda6af2cf9e9f99f506affdb1d06a305a57d75c8a472d3ddbd1fbcfbe5027"
+      },
+      "meta": {
+        "catalog_id": "b81545f7-5ca7-4cec-bef5-df005d165df8",
+        "author": "Paddlefruit",
+        "license": "See Liscence.txt",
+        "copyright": "The Indie Stone",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.9727640151977539,
+              0.158843994140625,
+              0.9679049849510193
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-FemaleSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-femaleskeleton.webp",
+        "hash": "SHA256:28cd557a725ca331feef4514d3efbac62bd77b48f8edf526066778a882885ee7"
+      },
+      "meta": {
+        "catalog_id": "b81545f7-5ca7-4cec-bef5-df005d165df8",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.9621050357818604,
+              0.11879201233386993,
+              0.9524909853935242
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-MaleBody",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-malebody.webp",
+        "hash": "SHA256:a166db44b78fa1c5cd2758f66770c018f1c4ca75361b3c8bac40082751025c10"
+      },
+      "meta": {
+        "catalog_id": "b81545f7-5ca7-4cec-bef5-df005d165df8",
+        "author": "Paddlefruit",
+        "license": "See Liscence.txt",
+        "copyright": "The Indie Stone",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.9864739775657654,
+              0.18194401264190674,
+              0.9807050228118896
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-MaleSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-maleskeleton.webp",
+        "hash": "SHA256:556f13b3fe965dd24fc50cc9446d239299bd40188b4e8ec9877bb08fdf12b0d8"
+      },
+      "meta": {
+        "catalog_id": "b81545f7-5ca7-4cec-bef5-df005d165df8",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.9745640158653259,
+              0.15042100846767426,
+              0.9730200171470642
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "PZ_OnlineAssetsTest.blend",
+      "size_in_bytes": 456765,
+      "hash": "SHA256:9c30fa5cc755a408a8247b43c4c330103c73697aad5160a39778b2b9eb353bd3",
+      "blender_version": "5.2.44"
+    }
+  ]
+}
