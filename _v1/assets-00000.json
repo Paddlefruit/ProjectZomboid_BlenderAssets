@@ -1,7 +1,162 @@
 {
-  "asset_count": 5,
+  "asset_count": 14,
   "file_count": 1,
   "assets": [
+    {
+      "name": "GEO-CowSkeleton",
+      "id_type": "MESH",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      }
+    },
+    {
+      "name": "OBJ-Bull",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-bull.webp",
+        "hash": "SHA256:ab740bc2a865aefa1001ce9571d14d1ba3b6b835b98f15bf0e7dd5e36bf54c50"
+      },
+      "meta": {
+        "catalog_id": "6c6cc28c-7664-4556-a6be-89adbb582ba5",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.393885999917984,
+              1.4499709606170654,
+              1.0076899528503418
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-BullSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-bullskeleton.webp",
+        "hash": "SHA256:c9abcabcc2196fe9388c34fe8df07ab727149647dd354cbda2715c35452e8677"
+      },
+      "meta": {
+        "catalog_id": "6c6cc28c-7664-4556-a6be-89adbb582ba5",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.31093600392341614,
+              1.4415209293365479,
+              1.0039740800857544
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-Chick",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-chick.webp",
+        "hash": "SHA256:a09209cf2f2171e172cee53596cddc696ddf445a3200004f89a449ac08fb0d8a"
+      },
+      "meta": {
+        "catalog_id": "e6ec8b21-777c-481e-b29f-32f8791cccaf",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.08251400291919708,
+              0.10599499940872192,
+              0.07880999892950058
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-ChickenCockerel",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-chickencockerel.webp",
+        "hash": "SHA256:aa0989c33632eb54f4c0b3d59c5329aa7d22f3aba9a0c408c911229d88e847e5"
+      },
+      "meta": {
+        "catalog_id": "e6ec8b21-777c-481e-b29f-32f8791cccaf",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.2661759853363037,
+              0.3460310101509094,
+              0.3094469904899597
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-ChickenHen",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-chickenhen.webp",
+        "hash": "SHA256:c112fa6c0de98295d6208f19d8672787208094fe52cf479430ffbe01a0cdd4b8"
+      },
+      "meta": {
+        "catalog_id": "e6ec8b21-777c-481e-b29f-32f8791cccaf",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.2661759853363037,
+              0.27178502082824707,
+              0.2994519770145416
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
     {
       "name": "OBJ-Cow",
       "id_type": "OBJECT",
@@ -17,6 +172,8 @@
       },
       "meta": {
         "catalog_id": "6c6cc28c-7664-4556-a6be-89adbb582ba5",
+        "license": "See License.txt",
+        "copyright": "The Indie Stone",
         "properties": [
           {
             "name": "dimensions",
@@ -25,6 +182,92 @@
               0.4211980104446411,
               1.447416067123413,
               0.9463199973106384
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-CowCalf",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-cowcalf.webp",
+        "hash": "SHA256:1beeeb19d0b092c4b71c65d6e54a36dac8b0858fc577342fba013d39c2ec9f72"
+      },
+      "meta": {
+        "catalog_id": "6c6cc28c-7664-4556-a6be-89adbb582ba5",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.23628100752830505,
+              0.7203719615936279,
+              0.5411640405654907
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-CowHeadless",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-cowheadless.webp",
+        "hash": "SHA256:0667dfcaae15bac8e05f574775768f6c77cfd8146009b8fc575f267861f1833b"
+      },
+      "meta": {
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.4211980104446411,
+              1.2083740234375,
+              0.8903470039367676
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-CowSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_OnlineAssetsTest.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-cowskeleton.webp",
+        "hash": "SHA256:7779d159f1ab7edf909284f45ae0f9daad317b01ac93c3cb8969294eec24554d"
+      },
+      "meta": {
+        "catalog_id": "6c6cc28c-7664-4556-a6be-89adbb582ba5",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.31093600392341614,
+              1.4415209293365479,
+              0.9702849984169006
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -47,7 +290,7 @@
       "meta": {
         "catalog_id": "b81545f7-5ca7-4cec-bef5-df005d165df8",
         "author": "Paddlefruit",
-        "license": "See Liscence.txt",
+        "license": "See License.txt",
         "copyright": "The Indie Stone",
         "properties": [
           {
@@ -78,6 +321,9 @@
       },
       "meta": {
         "catalog_id": "b81545f7-5ca7-4cec-bef5-df005d165df8",
+        "author": "Paddlefruit",
+        "license": "See License.txt",
+        "copyright": "The Indie Stone",
         "properties": [
           {
             "name": "dimensions",
@@ -108,7 +354,7 @@
       "meta": {
         "catalog_id": "b81545f7-5ca7-4cec-bef5-df005d165df8",
         "author": "Paddlefruit",
-        "license": "See Liscence.txt",
+        "license": "See License.txt",
         "copyright": "The Indie Stone",
         "properties": [
           {
@@ -139,6 +385,9 @@
       },
       "meta": {
         "catalog_id": "b81545f7-5ca7-4cec-bef5-df005d165df8",
+        "author": "Paddlefruit",
+        "license": "See License.txt",
+        "copyright": "The Indie Stone",
         "properties": [
           {
             "name": "dimensions",
@@ -157,8 +406,8 @@
   "files": [
     {
       "path": "PZ_OnlineAssetsTest.blend",
-      "size_in_bytes": 690703,
-      "hash": "SHA256:35f1665a1e3507149b5dd98c74e0d4dc3f8ec32af8bad9a8ee565f174859989b",
+      "size_in_bytes": 1335684,
+      "hash": "SHA256:f7feb77aac129ec5062afddcaf5cfc691138b1554fe8b4677981efe39b6a5f3f",
       "blender_version": "5.2.44"
     }
   ]
