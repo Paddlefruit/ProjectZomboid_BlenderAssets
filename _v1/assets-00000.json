@@ -1,12 +1,22 @@
 {
-  "asset_count": 14,
+  "asset_count": 51,
   "file_count": 1,
   "assets": [
     {
       "name": "GEO-CowSkeleton",
       "id_type": "MESH",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      }
+    },
+    {
+      "name": "GEO-TurkeyPoultSkeleton",
+      "id_type": "MESH",
+      "files": [
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
@@ -16,13 +26,13 @@
       "name": "OBJ-Bull",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-bull.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-bull.webp",
         "hash": "SHA256:ab740bc2a865aefa1001ce9571d14d1ba3b6b835b98f15bf0e7dd5e36bf54c50"
       },
       "meta": {
@@ -45,13 +55,13 @@
       "name": "OBJ-BullSkeleton",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-bullskeleton.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-bullskeleton.webp",
         "hash": "SHA256:c9abcabcc2196fe9388c34fe8df07ab727149647dd354cbda2715c35452e8677"
       },
       "meta": {
@@ -74,13 +84,13 @@
       "name": "OBJ-Chick",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-chick.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-chick.webp",
         "hash": "SHA256:a09209cf2f2171e172cee53596cddc696ddf445a3200004f89a449ac08fb0d8a"
       },
       "meta": {
@@ -103,13 +113,13 @@
       "name": "OBJ-ChickenCockerel",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-chickencockerel.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-chickencockerel.webp",
         "hash": "SHA256:aa0989c33632eb54f4c0b3d59c5329aa7d22f3aba9a0c408c911229d88e847e5"
       },
       "meta": {
@@ -132,13 +142,13 @@
       "name": "OBJ-ChickenHen",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-chickenhen.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-chickenhen.webp",
         "hash": "SHA256:c112fa6c0de98295d6208f19d8672787208094fe52cf479430ffbe01a0cdd4b8"
       },
       "meta": {
@@ -158,16 +168,74 @@
       }
     },
     {
-      "name": "OBJ-Cow",
+      "name": "OBJ-ChickenSkeleton",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-cow.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-chickenskeleton.webp",
+        "hash": "SHA256:17ca4345d7dc8269e50dfae5ed88e5d55029bd038cf5cfff61ab6356ab4d7237"
+      },
+      "meta": {
+        "catalog_id": "e6ec8b21-777c-481e-b29f-32f8791cccaf",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.22542999684810638,
+              0.22021698951721191,
+              0.2783520221710205
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-ChickSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-chickskeleton.webp",
+        "hash": "SHA256:57d3c8d5719956b87201725bdefc231391411f338e0eb72f42ecede7b806daad"
+      },
+      "meta": {
+        "catalog_id": "e6ec8b21-777c-481e-b29f-32f8791cccaf",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.07924899458885193,
+              0.09902899712324142,
+              0.07062199711799622
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-Cow",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-cow.webp",
         "hash": "SHA256:b61fee1f56a2dce1132b0352354a20553d5ce16aeaf1c957acc7b2ddaf667c26"
       },
       "meta": {
@@ -192,13 +260,13 @@
       "name": "OBJ-CowCalf",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-cowcalf.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-cowcalf.webp",
         "hash": "SHA256:1beeeb19d0b092c4b71c65d6e54a36dac8b0858fc577342fba013d39c2ec9f72"
       },
       "meta": {
@@ -218,27 +286,28 @@
       }
     },
     {
-      "name": "OBJ-CowHeadless",
+      "name": "OBJ-CowCalfSkeleton",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-cowheadless.webp",
-        "hash": "SHA256:0667dfcaae15bac8e05f574775768f6c77cfd8146009b8fc575f267861f1833b"
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-cowcalfskeleton.webp",
+        "hash": "SHA256:987fcb9f44b774e3915fa75d539f9ca456c0b8ca2a66f3f7487d89f16205083d"
       },
       "meta": {
+        "catalog_id": "6c6cc28c-7664-4556-a6be-89adbb582ba5",
         "properties": [
           {
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              0.4211980104446411,
-              1.2083740234375,
-              0.8903470039367676
+              0.15585200488567352,
+              0.7146520018577576,
+              0.5332340002059937
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -249,13 +318,13 @@
       "name": "OBJ-CowSkeleton",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-cowskeleton.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-cowskeleton.webp",
         "hash": "SHA256:7779d159f1ab7edf909284f45ae0f9daad317b01ac93c3cb8969294eec24554d"
       },
       "meta": {
@@ -275,16 +344,190 @@
       }
     },
     {
-      "name": "OBJ-FemaleBody",
+      "name": "OBJ-DeerDoe",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-femalebody.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-deerdoe.webp",
+        "hash": "SHA256:da6effbe73b598e54eb7e7c185a00df5a1faf41e4fd39a88245afef649afba10"
+      },
+      "meta": {
+        "catalog_id": "d13777ad-e9cd-4cf3-813f-992d0bee9925",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.24427199363708496,
+              1.0425639152526855,
+              0.8407509922981262
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-DeerDoeSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-deerdoeskeleton.webp",
+        "hash": "SHA256:40497951c74c870cba00f38c0d2c7676d5b061960a9419386924e2bfabbf60cf"
+      },
+      "meta": {
+        "catalog_id": "d13777ad-e9cd-4cf3-813f-992d0bee9925",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.1979999989271164,
+              1.0065089464187622,
+              0.7670149803161621
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-DeerFawn",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-deerfawn.webp",
+        "hash": "SHA256:a27114b7923a733d4709d1786b058d1423ca2fda11424be9224a63c41a3a7176"
+      },
+      "meta": {
+        "catalog_id": "d13777ad-e9cd-4cf3-813f-992d0bee9925",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.1816920042037964,
+              0.6114239692687988,
+              0.5311819911003113
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-DeerFawnSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-deerfawnskeleton.webp",
+        "hash": "SHA256:ca223339704a74dacc407f4188d6b9d444ac13cfed6edd4e6200af2dd932b03a"
+      },
+      "meta": {
+        "catalog_id": "d13777ad-e9cd-4cf3-813f-992d0bee9925",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.11931999772787094,
+              0.6065499782562256,
+              0.472601979970932
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-DeerStag",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-deerstag.webp",
+        "hash": "SHA256:8ae9fb13e6779968102696019d635be30e39c11a30ef7e75b512c57f749fa6d3"
+      },
+      "meta": {
+        "catalog_id": "d13777ad-e9cd-4cf3-813f-992d0bee9925",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.3240649998188019,
+              1.1118969917297363,
+              1.0483499765396118
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-DeerStagSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-deerstagskeleton.webp",
+        "hash": "SHA256:ebbba8e06745a43872aa75194732be39f430f1f0bda6fd261b29db98c93e3110"
+      },
+      "meta": {
+        "catalog_id": "d13777ad-e9cd-4cf3-813f-992d0bee9925",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.3240649998188019,
+              1.0947320461273193,
+              1.0581300258636475
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-FemaleBody",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-femalebody.webp",
         "hash": "SHA256:c75cda6af2cf9e9f99f506affdb1d06a305a57d75c8a472d3ddbd1fbcfbe5027"
       },
       "meta": {
@@ -310,13 +553,13 @@
       "name": "OBJ-FemaleSkeleton",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-femaleskeleton.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-femaleskeleton.webp",
         "hash": "SHA256:28cd557a725ca331feef4514d3efbac62bd77b48f8edf526066778a882885ee7"
       },
       "meta": {
@@ -342,13 +585,13 @@
       "name": "OBJ-MaleBody",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-malebody.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-malebody.webp",
         "hash": "SHA256:a166db44b78fa1c5cd2758f66770c018f1c4ca75361b3c8bac40082751025c10"
       },
       "meta": {
@@ -374,13 +617,13 @@
       "name": "OBJ-MaleSkeleton",
       "id_type": "OBJECT",
       "files": [
-        "PZ_OnlineAssetsTest.blend"
+        "PZ_EntityAssets.blend"
       ],
       "bl_versions": {
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "PZ_OnlineAssetsTest_thumbnails/Object/obj-maleskeleton.webp",
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-maleskeleton.webp",
         "hash": "SHA256:556f13b3fe965dd24fc50cc9446d239299bd40188b4e8ec9877bb08fdf12b0d8"
       },
       "meta": {
@@ -401,13 +644,825 @@
           }
         ]
       }
+    },
+    {
+      "name": "OBJ-Mouse",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-mouse.webp",
+        "hash": "SHA256:403aa97eb99a52fd9aafbf004292aa7a27fa6a87462708fa4b9ddc6674d5eaa3"
+      },
+      "meta": {
+        "catalog_id": "b7cd7c11-ae96-4d01-8270-628b7cabf6e3",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.046765998005867004,
+              0.18258599936962128,
+              0.09315099567174911
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-PigBoar",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-pigboar.webp",
+        "hash": "SHA256:3c05caa083fb288d43f9aec47377360e107416120e5748a7dd98510d944a3a47"
+      },
+      "meta": {
+        "catalog_id": "64a188d8-5c69-42b4-82eb-e348abc5e7e8",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.266541987657547,
+              0.9942289590835571,
+              0.49043402075767517
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-Piglet",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-piglet.webp",
+        "hash": "SHA256:a4f448dfffd12b2d499ed4c8a71bd7abf4c3b764b38ba844406ce9320dbe9060"
+      },
+      "meta": {
+        "catalog_id": "64a188d8-5c69-42b4-82eb-e348abc5e7e8",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.060538001358509064,
+              0.21561598777770996,
+              0.12271300703287125
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-PigletSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-pigletskeleton.webp",
+        "hash": "SHA256:cf6331c7253816fe99a29a3f0ad9528bc0730a986a16284bb596776b777c48b5"
+      },
+      "meta": {
+        "catalog_id": "64a188d8-5c69-42b4-82eb-e348abc5e7e8",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.04698000103235245,
+              0.21249200403690338,
+              0.11321700364351273
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-PigSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-pigskeleton.webp",
+        "hash": "SHA256:bf12684e935a1a9c2dab6995e75e70d6427a87fdcafc44f1e874139320efa6ad"
+      },
+      "meta": {
+        "catalog_id": "64a188d8-5c69-42b4-82eb-e348abc5e7e8",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.1906840056180954,
+              0.8989390134811401,
+              0.45953500270843506
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-PigSow",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-pigsow.webp",
+        "hash": "SHA256:b56f9cd0188d9662a8a96a43efcbb71a2219240c90d2895d32a7a307509c745f"
+      },
+      "meta": {
+        "catalog_id": "64a188d8-5c69-42b4-82eb-e348abc5e7e8",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.25674399733543396,
+              0.9493309855461121,
+              0.48281899094581604
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-Rabbit",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-rabbit.webp",
+        "hash": "SHA256:fc5dab2c74495dd61992da303654a68acd0abc3cbb70182e2f8fe754359134d8"
+      },
+      "meta": {
+        "catalog_id": "c1fa5669-a6ff-41d3-8ed2-d34b32db34c2",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.10349400341510773,
+              0.19086599349975586,
+              0.23850800096988678
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-RabbitKitten",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-rabbitkitten.webp",
+        "hash": "SHA256:66821714ea3cb292bab100197c70c141679d57b64f6629e015bd6c4221cce9fa"
+      },
+      "meta": {
+        "catalog_id": "c1fa5669-a6ff-41d3-8ed2-d34b32db34c2",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.0403129979968071,
+              0.08028099685907364,
+              0.0951090008020401
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-RabbitKittenSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-rabbitkittenskeleton.webp",
+        "hash": "SHA256:dc7f676e6b4b114f65138fda82101684edfa1e4df4d637988117228d0669c92c"
+      },
+      "meta": {
+        "catalog_id": "c1fa5669-a6ff-41d3-8ed2-d34b32db34c2",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.037268444895744324,
+              0.07706502079963684,
+              0.05726325511932373
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-RabbitSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-rabbitskeleton.webp",
+        "hash": "SHA256:33b25a350e4aa6e6ca65421d361fdd66846cc7779a5368b00d18bb5be36b1087"
+      },
+      "meta": {
+        "catalog_id": "c1fa5669-a6ff-41d3-8ed2-d34b32db34c2",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.09444800019264221,
+              0.19469499588012695,
+              0.16937598586082458
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-Raccoon",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-raccoon.webp",
+        "hash": "SHA256:3cc9c993bbcae423daa801ccb7a661eae03af69f3d03ee56e65a4c235647bf9c"
+      },
+      "meta": {
+        "catalog_id": "fb6b3ebe-d195-4a1c-9ac6-8f0b9c37e054",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.13312199711799622,
+              0.6216490268707275,
+              0.26576101779937744
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-RaccoonSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-raccoonskeleton.webp",
+        "hash": "SHA256:26f42bc786e993d82275c6d4e9c75412a3beecf22c53b4b983b09f67128df9f4"
+      },
+      "meta": {
+        "catalog_id": "fb6b3ebe-d195-4a1c-9ac6-8f0b9c37e054",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.08354199677705765,
+              0.6077640056610107,
+              0.24587200582027435
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-Rat",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-rat.webp",
+        "hash": "SHA256:0c05cbc87c8cdc845639a17d58cd199b990bb7880cab3230a32afbf5f537143b"
+      },
+      "meta": {
+        "catalog_id": "5e8889ce-51b7-45c5-b25f-d8d5ed1d508e",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.06511200219392776,
+              0.3753650188446045,
+              0.1088079959154129
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-RatSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-ratskeleton.webp",
+        "hash": "SHA256:77b06f80f0ceaf0cccc0e3812e3002d31cf21b7e5fd6b749aabfca74dc49a32b"
+      },
+      "meta": {
+        "catalog_id": "5e8889ce-51b7-45c5-b25f-d8d5ed1d508e",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.05330999940633774,
+              0.36481401324272156,
+              0.09636400640010834
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-Scarecrow",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-scarecrow.webp",
+        "hash": "SHA256:77e7c690cd3d0b9163ed594c3227b51fb7b57b324da08d46a8f00c30a2b274a4"
+      },
+      "meta": {
+        "catalog_id": "b81545f7-5ca7-4cec-bef5-df005d165df8",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.9864739775657654,
+              0.18194401264190674,
+              1.1788840293884277
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-SheepEweFleece",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-sheepewefleece.webp",
+        "hash": "SHA256:22867650663e660dbac8d8e59f7f97b8afc2b79f20098de8011f0d224516ba96"
+      },
+      "meta": {
+        "catalog_id": "919d73cb-645f-44e9-b60b-89f85364391d",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.2499620020389557,
+              0.617851972579956,
+              0.4286099970340729
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-SheepEweSheared",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-sheepewesheared.webp",
+        "hash": "SHA256:1dc4fbd5ffcf78fe49a4c14cb27af2dd90e5231d9fb229be7cfbdc672ece5993"
+      },
+      "meta": {
+        "catalog_id": "919d73cb-645f-44e9-b60b-89f85364391d",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.16033999621868134,
+              0.596563994884491,
+              0.4286099970340729
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-SheepEweSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-sheepeweskeleton.webp",
+        "hash": "SHA256:40f87fdac745c818b10433180ecceb3347d0db67ff045b9537728040f624595f"
+      },
+      "meta": {
+        "catalog_id": "919d73cb-645f-44e9-b60b-89f85364391d",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.12361499667167664,
+              0.5858590006828308,
+              0.4185500144958496
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-SheepLamb",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-sheeplamb.webp",
+        "hash": "SHA256:10d95716c4b609b4890caa9630a1187f7a3ee64d16f296adf8d99193e88c6f4f"
+      },
+      "meta": {
+        "catalog_id": "919d73cb-645f-44e9-b60b-89f85364391d",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.1066260039806366,
+              0.2633399963378906,
+              0.21536600589752197
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-SheepLambSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-sheeplambskeleton.webp",
+        "hash": "SHA256:5f8daa7f612772bdc60b782b709c026f3bf873444921f63877df5bb5cac9e834"
+      },
+      "meta": {
+        "catalog_id": "919d73cb-645f-44e9-b60b-89f85364391d",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.06186800077557564,
+              0.26249000430107117,
+              0.2036219984292984
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-SheepRamFleece",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-sheepramfleece.webp",
+        "hash": "SHA256:a63bae28a88aa2d096785cda4e3bf0983a4241fd3793001979c93418c7189de6"
+      },
+      "meta": {
+        "catalog_id": "919d73cb-645f-44e9-b60b-89f85364391d",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.2737939953804016,
+              0.680974006652832,
+              0.4693880081176758
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-SheepRamSheared",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-sheepramsheared.webp",
+        "hash": "SHA256:96facb7c39af0da5800cf94897fbd7c0dab11717ba8a26bb418d87594fe40117"
+      },
+      "meta": {
+        "catalog_id": "919d73cb-645f-44e9-b60b-89f85364391d",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.23312199115753174,
+              0.6593289971351624,
+              0.4693880081176758
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-SheepRamSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-sheepramskeleton.webp",
+        "hash": "SHA256:7c91f0b77f6a2c3de0b46d22b7d68d584d229ccec48b27abb27c908656258483"
+      },
+      "meta": {
+        "catalog_id": "919d73cb-645f-44e9-b60b-89f85364391d",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.16342800855636597,
+              0.64444500207901,
+              0.46040499210357666
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-SkeletonMannequin",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-skeletonmannequin.webp",
+        "hash": "SHA256:b3752f94d1cf7197a0e6d5abcbef6bce25ad7dbc9267d72f8957cb4c5bb00263"
+      },
+      "meta": {
+        "catalog_id": "b81545f7-5ca7-4cec-bef5-df005d165df8",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.9594260454177856,
+              0.20655500888824463,
+              1.0775229930877686
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-Turkey",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-turkey.webp",
+        "hash": "SHA256:6ff71e769f4b31df6d92aa020e1480529dc49a882371d20057681c35e2ea6e25"
+      },
+      "meta": {
+        "catalog_id": "ced7c987-ab74-45ef-90ab-0d188ccfd131",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.9710400104522705,
+              0.5555950403213501,
+              0.44019898772239685
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-TurkeyPoult",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-turkeypoult.webp",
+        "hash": "SHA256:67db934c2950229a73520e70b77b0deb8401640a76b6e341e932351f08e9523d"
+      },
+      "meta": {
+        "catalog_id": "ced7c987-ab74-45ef-90ab-0d188ccfd131",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.43502599000930786,
+              0.22729499638080597,
+              0.19720900058746338
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-TurkeyPoultSkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-turkeypoultskeleton.webp",
+        "hash": "SHA256:2a81797fc55d173fa065fa723be191d83d4e0f5eac169abbb293e29a442f1135"
+      },
+      "meta": {
+        "catalog_id": "ced7c987-ab74-45ef-90ab-0d188ccfd131",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.29055601358413696,
+              0.19043999910354614,
+              0.19673800468444824
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-TurkeySkeleton",
+      "id_type": "OBJECT",
+      "files": [
+        "PZ_EntityAssets.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "PZ_EntityAssets_thumbnails/Object/obj-turkeyskeleton.webp",
+        "hash": "SHA256:8f6ac71eb09b1f133216c37a4c481f4f21cbe0d13fea4fa28d42b9189abeac05"
+      },
+      "meta": {
+        "catalog_id": "ced7c987-ab74-45ef-90ab-0d188ccfd131",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.6374980211257935,
+              0.417838990688324,
+              0.43165498971939087
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
     }
   ],
   "files": [
     {
-      "path": "PZ_OnlineAssetsTest.blend",
-      "size_in_bytes": 1335684,
-      "hash": "SHA256:f7feb77aac129ec5062afddcaf5cfc691138b1554fe8b4677981efe39b6a5f3f",
+      "path": "PZ_EntityAssets.blend",
+      "size_in_bytes": 10163356,
+      "hash": "SHA256:7f000bbd94e6d5c234e6eecdd7507cf6810867688902d7dd07ca9034c8c3cc1f",
       "blender_version": "5.2.44"
     }
   ]
