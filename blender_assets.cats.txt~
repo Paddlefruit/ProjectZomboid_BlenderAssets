@@ -1,0 +1,24 @@
+# This is an Asset Catalog Definition file for Blender.
+#
+# Empty lines and lines starting with `#` will be ignored.
+# The first non-ignored line should be the version indicator.
+# Other lines are of the format "UUID:catalog/path/for/assets:simple catalog name"
+
+VERSION 1
+
+8debb838-acd6-4103-a1b0-c270021cb014:Geometry Nodes:Geometry Nodes
+60343e65-a1e5-4743-a8bd-0a5ba67c8e2d:Models:Models
+a4d9080c-efe7-4eee-8a6f-7ac67f4c7519:Models/Entities:Models-Entities
+51ad841f-f89c-41d7-b650-f72f6b11b551:Models/Entities/Animals:Models-Entities-Animals
+e3af9239-9e59-4370-9429-09178f209504:Models/Entities/Animals/Chickens:Models-Entities-Animals-Chickens
+863ba479-9fd9-481d-ba31-da4834d79605:Models/Entities/Animals/Cows:Models-Entities-Animals-Cows
+5652ca05-1a9e-4382-a268-7d2aeddc1f04:Models/Entities/Animals/Deer:Models-Entities-Animals-Deer
+82a27b28-9b59-423e-bd5f-0ead3cafb980:Models/Entities/Animals/Mice:Models-Entities-Animals-Mice
+9f01006a-3b4b-428a-ba1e-be4346aa6638:Models/Entities/Animals/Pigs:Models-Entities-Animals-Pigs
+7493a973-e9f4-46e8-b0ba-70872a403132:Models/Entities/Animals/Rabbits:Models-Entities-Animals-Rabbits
+da126799-a51a-46a9-8204-0f99c21dc6af:Models/Entities/Animals/Raccoons:Models-Entities-Animals-Raccoons
+e22cfa8e-68b8-426f-8434-ee99d1b0071d:Models/Entities/Animals/Rats:Models-Entities-Animals-Rats
+f3919f0b-607e-4d76-a7b1-c398f27b796e:Models/Entities/Animals/Sheep:Models-Entities-Animals-Sheep
+3e541915-aa2c-4d0f-8214-91835e0931e5:Models/Entities/Animals/Turkeys:Models-Entities-Animals-Turkeys
+7f6b8200-6018-47ae-aeae-ee50676563de:Models/Entities/Humans:Models-Entities-Humans
+185a82a8-017f-4af6-b61a-d041295c823d:Models/Vegetation:Models-Vegetation

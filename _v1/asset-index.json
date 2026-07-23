@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "asset_size_bytes": 21033962,
+  "asset_count": 61,
+  "file_count": 2,
+  "pages": [
+    {
+      "url": "_v1/assets-00000.json",
+      "hash": "SHA256:d967457f8e74d253d56afe7bde87b5b1d0c5ab642063d1838d8906a090f9797c"
+    }
+  ],
+  "catalogs": [
+    {
+      "path": "Geometry Nodes",
+      "uuids": [
+        "8debb838-acd6-4103-a1b0-c270021cb014"
+      ],
+      "simple_name": "Geometry Nodes"
+    },
+    {
+      "path": "Models",
+      "uuids": [
+        "60343e65-a1e5-4743-a8bd-0a5ba67c8e2d"
+      ],
+      "simple_name": "Models"
+    },
+    {
+      "path": "Models/Entities",
+      "uuids": [
+        "a4d9080c-efe7-4eee-8a6f-7ac67f4c7519"
+      ],
+      "simple_name": "Models-Entities"
+    },
+    {
+      "path": "Models/Entities/Animals",
+      "uuids": [
+        "51ad841f-f89c-41d7-b650-f72f6b11b551"
+      ],
+      "simple_name": "Models-Entities-Animals"
+    },
+    {
+      "path": "Models/Entities/Animals/Chickens",
+      "uuids": [
+        "e3af9239-9e59-4370-9429-09178f209504"
+      ],
+      "simple_name": "Models-Entities-Animals-Chickens"
+    },
+    {
+      "path": "Models/Entities/Animals/Cows",
+      "uuids": [
+        "863ba479-9fd9-481d-ba31-da4834d79605"
+      ],
+      "simple_name": "Models-Entities-Animals-Cows"
+    },
+    {
+      "path": "Models/Entities/Animals/Deer",
+      "uuids": [
+        "5652ca05-1a9e-4382-a268-7d2aeddc1f04"
+      ],
+      "simple_name": "Models-Entities-Animals-Deer"
+    },
+    {
+      "path": "Models/Entities/Animals/Mice",
+      "uuids": [
+        "82a27b28-9b59-423e-bd5f-0ead3cafb980"
+      ],
+      "simple_name": "Models-Entities-Animals-Mice"
+    },
+    {
+      "path": "Models/Entities/Animals/Pigs",
+      "uuids": [
+        "9f01006a-3b4b-428a-ba1e-be4346aa6638"
+      ],
+      "simple_name": "Models-Entities-Animals-Pigs"
+    },
+    {
+      "path": "Models/Entities/Animals/Rabbits",
+      "uuids": [
+        "7493a973-e9f4-46e8-b0ba-70872a403132"
+      ],
+      "simple_name": "Models-Entities-Animals-Rabbits"
+    },
+    {
+      "path": "Models/Entities/Animals/Raccoons",
+      "uuids": [
+        "da126799-a51a-46a9-8204-0f99c21dc6af"
+      ],
+      "simple_name": "Models-Entities-Animals-Raccoons"
+    },
+    {
+      "path": "Models/Entities/Animals/Rats",
+      "uuids": [
+        "e22cfa8e-68b8-426f-8434-ee99d1b0071d"
+      ],
+      "simple_name": "Models-Entities-Animals-Rats"
+    },
+    {
+      "path": "Models/Entities/Animals/Sheep",
+      "uuids": [
+        "f3919f0b-607e-4d76-a7b1-c398f27b796e"
+      ],
+      "simple_name": "Models-Entities-Animals-Sheep"
+    },
+    {
+      "path": "Models/Entities/Animals/Turkeys",
+      "uuids": [
+        "3e541915-aa2c-4d0f-8214-91835e0931e5"
+      ],
+      "simple_name": "Models-Entities-Animals-Turkeys"
+    },
+    {
+      "path": "Models/Entities/Humans",
+      "uuids": [
+        "7f6b8200-6018-47ae-aeae-ee50676563de"
+      ],
+      "simple_name": "Models-Entities-Humans"
+    },
+    {
+      "path": "Models/Vegetation",
+      "uuids": [
+        "185a82a8-017f-4af6-b61a-d041295c823d"
+      ],
+      "simple_name": "Models-Vegetation"
+    },
+    {
+      "path": "Models/Vegetation/Trees",
+      "uuids": [
+        "88add343-27fa-461a-a158-d53fddd27229"
+      ],
+      "simple_name": "Models-Vegetation-Trees"
+    }
+  ]
+}
