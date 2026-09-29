@@ -2,7 +2,7 @@
   "api_versions": {
     "v1": {
       "url": "_v1/asset-index.json",
-      "hash": "SHA256:b5fd0e7650882aed0c4af58c3c06a4909170dafef040036ac0049f4ed044d697"
+      "hash": "SHA256:95e121993c2ea46c67b3a9e256032bdf84bb840f3f563a5f516cf88ec7743d13"
     }
   },
   "name": "Project Zomboid Blender Assets",

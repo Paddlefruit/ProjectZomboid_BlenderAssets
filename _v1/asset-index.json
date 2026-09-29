@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "asset_size_bytes": 21033962,
-  "asset_count": 61,
+  "asset_size_bytes": 49998173,
+  "asset_count": 73,
   "file_count": 2,
   "pages": [
     {
       "url": "_v1/assets-00000.json",
-      "hash": "SHA256:d967457f8e74d253d56afe7bde87b5b1d0c5ab642063d1838d8906a090f9797c"
+      "hash": "SHA256:3d3140b431c689131bc3de53a5f81be8a5d97dcf94fabbf8261d6d8e2f12ae79"
     }
   ],
   "catalogs": [
@@ -128,6 +128,13 @@
         "88add343-27fa-461a-a158-d53fddd27229"
       ],
       "simple_name": "Models-Vegetation-Trees"
+    },
+    {
+      "path": "Models/Vehicles",
+      "uuids": [
+        "83e601a9-c968-49f1-91af-79da67966cc3"
+      ],
+      "simple_name": "Models-Vehicles"
     }
   ]
 }

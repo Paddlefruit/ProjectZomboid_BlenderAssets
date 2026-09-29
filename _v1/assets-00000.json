@@ -1,7 +1,17 @@
 {
-  "asset_count": 61,
+  "asset_count": 73,
   "file_count": 2,
   "assets": [
+    {
+      "name": "GEO-RedMapleJumbo",
+      "id_type": "MESH",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      }
+    },
     {
       "name": "GN-PZ_ForestGenerator",
       "id_type": "NODETREE",
@@ -16,7 +26,6 @@
         "hash": "SHA256:df8d08c3849b504b04e51abafcc544a63a84fbaa7a0c482364b17ba5b61adc03"
       },
       "meta": {
-        "catalog_id": "8debb838-acd6-4103-a1b0-c270021cb014",
         "properties": [
           {
             "name": "type",
@@ -51,9 +60,38 @@
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              4.444344520568848,
-              2.5837709927145625e-07,
-              5.910978317260742
+              2.222172260284424,
+              1.2918854963572812e-07,
+              2.955489158630371
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-AmericanHollyJumbo",
+      "id_type": "OBJECT",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Misc/PZ_TreesAndForestGen_thumbnails/Object/obj-americanhollyjumbo.webp",
+        "hash": "SHA256:328f323fe986391653fe4d030c0e7374c94209d87856fd3898a2e0a1d78db485"
+      },
+      "meta": {
+        "catalog_id": "88add343-27fa-461a-a158-d53fddd27229",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.6888058185577393,
+              2.1445296738420438e-07,
+              4.906111717224121
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -80,9 +118,38 @@
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              4.444344520568848,
-              2.5837709927145625e-07,
-              5.910978317260742
+              2.222172260284424,
+              1.2918854963572812e-07,
+              2.955489158630371
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-AmericanLindenJumbo",
+      "id_type": "OBJECT",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Misc/PZ_TreesAndForestGen_thumbnails/Object/obj-americanlindenjumbo.webp",
+        "hash": "SHA256:b75214eac42ca65eca0cc8734a3c6664edc9bc9eb39acee697857966b8b49c62"
+      },
+      "meta": {
+        "catalog_id": "88add343-27fa-461a-a158-d53fddd27229",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.6888058185577393,
+              2.1445296738420438e-07,
+              4.906111717224121
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -109,9 +176,38 @@
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              4.444344520568848,
-              2.5837709927145625e-07,
-              5.910978317260742
+              2.222172260284424,
+              1.2918854963572812e-07,
+              2.955489158630371
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-CanadianHemlockJumbo",
+      "id_type": "OBJECT",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Misc/PZ_TreesAndForestGen_thumbnails/Object/obj-canadianhemlockjumbo.webp",
+        "hash": "SHA256:a464c266481595eb0e13269a24b008472e96b2c58060ffb0e8e795db4382382c"
+      },
+      "meta": {
+        "catalog_id": "88add343-27fa-461a-a158-d53fddd27229",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.6888058185577393,
+              2.1445296738420438e-07,
+              4.906111717224121
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -138,9 +234,38 @@
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              4.444344520568848,
-              2.5837709927145625e-07,
-              5.910978317260742
+              2.222172260284424,
+              1.2918854963572812e-07,
+              2.955489158630371
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-CarolinaSilverbellJumbo",
+      "id_type": "OBJECT",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Misc/PZ_TreesAndForestGen_thumbnails/Object/obj-carolinasilverbelljumbo.webp",
+        "hash": "SHA256:c7798b1e58eecaf962e731719a86af29a6f3d2e5ce7d8a00cedc3b88456ebe6e"
+      },
+      "meta": {
+        "catalog_id": "88add343-27fa-461a-a158-d53fddd27229",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.6888058185577393,
+              2.1445296738420438e-07,
+              4.906111717224121
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -167,9 +292,38 @@
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              4.444344520568848,
-              2.5837709927145625e-07,
-              5.910978317260742
+              2.222172260284424,
+              1.2918854963572812e-07,
+              2.955489158630371
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-CockspurHawthornJumbo",
+      "id_type": "OBJECT",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Misc/PZ_TreesAndForestGen_thumbnails/Object/obj-cockspurhawthornjumbo.webp",
+        "hash": "SHA256:2a9e43184f9aa304206aee2140cdd6deb8ffd757ab868ab498ce1e3a7c4b8cf6"
+      },
+      "meta": {
+        "catalog_id": "88add343-27fa-461a-a158-d53fddd27229",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.6888058185577393,
+              2.1445296738420438e-07,
+              4.906111717224121
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -196,9 +350,38 @@
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              4.444344520568848,
-              2.5837709927145625e-07,
-              5.910978317260742
+              2.222172260284424,
+              1.2918854963572812e-07,
+              2.955489158630371
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-DogwoodJumbo",
+      "id_type": "OBJECT",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Misc/PZ_TreesAndForestGen_thumbnails/Object/obj-dogwoodjumbo.webp",
+        "hash": "SHA256:17819d4faa03e3db79ed19a03bf7186191b2c9885e3dc46d34a6274d96d4e59c"
+      },
+      "meta": {
+        "catalog_id": "88add343-27fa-461a-a158-d53fddd27229",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.6888058185577393,
+              2.1445296738420438e-07,
+              4.906111717224121
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -225,9 +408,38 @@
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              4.444344520568848,
-              2.5837709927145625e-07,
-              5.910978317260742
+              2.222172260284424,
+              1.2918854963572812e-07,
+              2.955489158630371
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-EasternRedbudJumbo",
+      "id_type": "OBJECT",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Misc/PZ_TreesAndForestGen_thumbnails/Object/obj-easternredbudjumbo.webp",
+        "hash": "SHA256:b2a8c1afaad4f81cd461b617b005ca11a78004fb87924f971e5083c1dac463d8"
+      },
+      "meta": {
+        "catalog_id": "88add343-27fa-461a-a158-d53fddd27229",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.6888058185577393,
+              2.1445296738420438e-07,
+              4.906111717224121
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -254,9 +466,38 @@
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              4.444344520568848,
-              2.5837709927145625e-07,
-              5.910978317260742
+              2.222172260284424,
+              1.2918854963572812e-07,
+              2.955489158630371
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-RedMapleJumbo",
+      "id_type": "OBJECT",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Misc/PZ_TreesAndForestGen_thumbnails/Object/obj-redmaplejumbo.webp",
+        "hash": "SHA256:d455366e51b1ca00adf3b0257c195fccfef4d4e1c22cb4f814f4b977dce391fe"
+      },
+      "meta": {
+        "catalog_id": "88add343-27fa-461a-a158-d53fddd27229",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.6888058185577393,
+              2.1445296738420438e-07,
+              4.906111717224121
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -283,9 +524,38 @@
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              4.444344520568848,
-              2.5837709927145625e-07,
-              5.910978317260742
+              2.222172260284424,
+              1.2918854963572812e-07,
+              2.955489158630371
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-RiverBirchJumbo",
+      "id_type": "OBJECT",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Misc/PZ_TreesAndForestGen_thumbnails/Object/obj-riverbirchjumbo.webp",
+        "hash": "SHA256:4c470efd40735c8c014a19ae82ca74427dd8a812c57e1975afe3ab3f04812cf4"
+      },
+      "meta": {
+        "catalog_id": "88add343-27fa-461a-a158-d53fddd27229",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.6888058185577393,
+              2.1445296738420438e-07,
+              4.906111717224121
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -312,9 +582,38 @@
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              4.444344520568848,
-              2.5837709927145625e-07,
-              5.910978317260742
+              2.222172260284424,
+              1.2918854963572812e-07,
+              2.955489158630371
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-VirginiaPineJumbo",
+      "id_type": "OBJECT",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Misc/PZ_TreesAndForestGen_thumbnails/Object/obj-virginiapinejumbo.webp",
+        "hash": "SHA256:de75262b1dcce29c80e78687cc2815cc352caf97f8ae9c2b60e9c91c75b25886"
+      },
+      "meta": {
+        "catalog_id": "88add343-27fa-461a-a158-d53fddd27229",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.6888058185577393,
+              2.1445296738420438e-07,
+              4.906111717224121
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -341,9 +640,38 @@
             "name": "dimensions",
             "type": "IDP_ARRAY",
             "value": [
-              4.444344520568848,
-              2.5837709927145625e-07,
-              5.910978317260742
+              2.222172260284424,
+              1.2918854963572812e-07,
+              2.955489158630371
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OBJ-YellowwoodJumbo",
+      "id_type": "OBJECT",
+      "files": [
+        "Misc/PZ_TreesAndForestGen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Misc/PZ_TreesAndForestGen_thumbnails/Object/obj-yellowwoodjumbo.webp",
+        "hash": "SHA256:152de99ea64100419220c9c133aafeec7824d1c45071dc3b04665bb76d86571d"
+      },
+      "meta": {
+        "catalog_id": "88add343-27fa-461a-a158-d53fddd27229",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.6888058185577393,
+              2.1445296738420438e-07,
+              4.906111717224121
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -1789,15 +2117,15 @@
   "files": [
     {
       "path": "Misc/PZ_TreesAndForestGen.blend",
-      "size_in_bytes": 10709957,
-      "hash": "SHA256:11351514d5ad4b70534582f5b292fcff400c13c61cb7fff9f16969d26339e673",
-      "blender_version": "5.2.44"
+      "size_in_bytes": 39675445,
+      "hash": "SHA256:20ab7a0c63e6361d0adbd54ec9991f862cb31ab38fdd9633a00fda9c20b6a27c",
+      "blender_version": "5.2.45"
     },
     {
       "path": "Models/PZ_EntityModels.blend",
-      "size_in_bytes": 10324005,
-      "hash": "SHA256:08a5c0f4eef0a7e5119a242162a5c65f2504227b54675f44100613d114b62df6",
-      "blender_version": "5.2.44"
+      "size_in_bytes": 10322728,
+      "hash": "SHA256:a1ccb8741c22be6494f83bedfd2becba93b421f9798b949af672fa31b040da1f",
+      "blender_version": "5.2.45"
     }
   ]
 }
