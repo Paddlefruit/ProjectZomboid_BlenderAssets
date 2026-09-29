@@ -26,6 +26,7 @@
         "hash": "SHA256:df8d08c3849b504b04e51abafcc544a63a84fbaa7a0c482364b17ba5b61adc03"
       },
       "meta": {
+        "catalog_id": "8debb838-acd6-4103-a1b0-c270021cb014",
         "properties": [
           {
             "name": "type",
@@ -2117,8 +2118,8 @@
   "files": [
     {
       "path": "Misc/PZ_TreesAndForestGen.blend",
-      "size_in_bytes": 39675445,
-      "hash": "SHA256:20ab7a0c63e6361d0adbd54ec9991f862cb31ab38fdd9633a00fda9c20b6a27c",
+      "size_in_bytes": 39681636,
+      "hash": "SHA256:b277f6603768e2c26232b277db5857f444716bb4032e506adb2702063b95c7af",
       "blender_version": "5.2.45"
     },
     {
